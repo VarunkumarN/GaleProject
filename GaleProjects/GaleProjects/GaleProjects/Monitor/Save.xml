@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This config file defines the location of the UpdateManager deploy server.           -->
+<!-- The name attribute is the environment name; usually "LIVE", "QA" or "TRAIN"        -->
+<!-- The host attribute is the host name of the UpdateManager deploy server             -->
+<!-- The port attribute is the port number of the UpdateManager deploy server           -->
+<!-- Other attributes:                                                                  -->
+<!--  verbosity - controls user interaction with Update Manager UI                      -->
+<!--  updateInterval - number of minutes between automatic check for updates processing -->
+<!--  assemblyLoadInterval - number of minutes between times the process loads known    -->
+<!--           application assemblies to keep the user environment in a warmed up state -->
+<configuration>
+  <item Stateid="3" State="Arunachal Pradesh" City="Dibang Valley" cityid="19" Stationcode="AR-DI-19" predicted="19" Actual="8" Date="02/20/2016" Variance="11" />
+  <item Stateid="2" State="Andhra Pradesh" City="Cuddapah" cityid="6" Stationcode="AN-CU-6" predicted="6" Actual="7" Date="2/24/2016" Variance="-1" />
+</configuration>

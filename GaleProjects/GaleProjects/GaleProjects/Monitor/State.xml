@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--This config file defines the location of the UpdateManager deploy server.           -->
+<!-- The name attribute is the environment name; usually "LIVE", "QA" or "TRAIN"        -->
+<!-- The host attribute is the host name of the UpdateManager deploy server             -->
+<!-- The port attribute is the port number of the UpdateManager deploy server           -->
+<!-- Other attributes:                                                                  -->
+<!--  verbosity - controls user interaction with Update Manager UI                      -->
+<!--  updateInterval - number of minutes between automatic check for updates processing -->
+<!--  assemblyLoadInterval - number of minutes between times the process loads known    -->
+<!--           application assemblies to keep the user environment in a warmed up state -->
+<country>
+<item Stateid="1" State="Andaman and Nicobar Island"></item>
+<item Stateid="2" State="Andhra Pradesh"></item>
+<item Stateid="3" State="Arunachal Pradesh"></item>
+<item Stateid="4" State="Assam"></item>
+<item Stateid="5" State="Bihar"></item>
+<item Stateid="6" State="Chandigarh"></item>
+<item Stateid="7" State="Chhattisgarh"></item>
+<item Stateid="8" State="Dadra and Nagar Haveli"></item>
+<item Stateid="9" State="Daman and Diu"></item>
+<item Stateid="10" State="Delhi"></item>
+<item Stateid="11" State="Goa"></item>
+<item Stateid="12" State="Gujarat"></item>
+<item Stateid="13" State="Haryana"></item>
+<item Stateid="14" State="Himachal Pradesh"></item>
+<item Stateid="15" State="Jammu and Kashmir"></item>
+<item Stateid="16" State="Jharkhand"></item>
+<item Stateid="17" State="Karnataka"></item>
+<item Stateid="18" State="Kerala"></item>
+<item Stateid="19" State="Lakshadweep"></item>
+<item Stateid="20" State="Madhya Pradesh"></item>
+<item Stateid="21" State="Maharashtra"></item>
+<item Stateid="22" State="Manipur"></item>
+<item Stateid="23" State="Meghalaya"></item>
+<item Stateid="24" State="Mizoram"></item>
+<item Stateid="25" State="Nagaland"></item>
+<item Stateid="26" State="Odisha"></item>
+<item Stateid="27" State="Puducherry"></item>
+<item Stateid="28" State="Punjab"></item>
+<item Stateid="29" State="Rajasthan"></item>
+<item Stateid="30" State="Sikkim"></item>
+<item Stateid="31" State="Tamil Nadu"></item>
+<item Stateid="32" State="Telangana"></item>
+<item Stateid="33" State="Tripura"></item>
+<item Stateid="34" State="Uttar Pradesh"></item>
+<item Stateid="35" State="Uttarakhand"></item>
+<item Stateid="36" State="West Bengal"></item>
+
+
+</country>

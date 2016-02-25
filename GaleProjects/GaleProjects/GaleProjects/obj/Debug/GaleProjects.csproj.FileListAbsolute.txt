@@ -1,0 +1,4 @@
+E:\Projects\GaleProjects\GaleProjects\GaleProjects\bin\GaleProjects.dll
+E:\Projects\GaleProjects\GaleProjects\GaleProjects\bin\GaleProjects.pdb
+E:\Projects\GaleProjects\GaleProjects\GaleProjects\obj\Debug\GaleProjects.dll
+E:\Projects\GaleProjects\GaleProjects\GaleProjects\obj\Debug\GaleProjects.pdb

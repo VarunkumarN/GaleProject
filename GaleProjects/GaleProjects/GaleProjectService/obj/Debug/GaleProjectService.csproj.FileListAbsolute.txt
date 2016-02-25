@@ -1,0 +1,7 @@
+E:\Projects\GaleProjects\GaleProjects\GaleProjectService\obj\Debug\GaleProjectService.csprojResolveAssemblyReference.cache
+E:\Projects\GaleProjects\GaleProjects\GaleProjectService\bin\GaleProjectService.dll
+E:\Projects\GaleProjects\GaleProjects\GaleProjectService\bin\GaleProjectService.pdb
+E:\Projects\GaleProjects\GaleProjects\GaleProjectService\bin\GaleProjects.dll
+E:\Projects\GaleProjects\GaleProjects\GaleProjectService\bin\GaleProjects.pdb
+E:\Projects\GaleProjects\GaleProjects\GaleProjectService\obj\Debug\GaleProjectService.dll
+E:\Projects\GaleProjects\GaleProjects\GaleProjectService\obj\Debug\GaleProjectService.pdb

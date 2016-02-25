@@ -1,0 +1,7 @@
+E:\Projects\GaleProjects\GaleProjects\GaleProjectsTest\bin\Debug\GaleProjectsTest.exe
+E:\Projects\GaleProjects\GaleProjects\GaleProjectsTest\bin\Debug\GaleProjectsTest.pdb
+E:\Projects\GaleProjects\GaleProjects\GaleProjectsTest\obj\x86\Debug\GaleProjectsTest.exe
+E:\Projects\GaleProjects\GaleProjects\GaleProjectsTest\obj\x86\Debug\GaleProjectsTest.pdb
+E:\Projects\GaleProjects\GaleProjects\GaleProjectsTest\obj\x86\Debug\GaleProjectsTest.csprojResolveAssemblyReference.cache
+E:\Projects\GaleProjects\GaleProjects\GaleProjectsTest\bin\Debug\GaleProjectsTest.exe.config
+E:\Projects\GaleProjects\GaleProjects\GaleProjectsTest\bin\Debug\nunit.framework.dll

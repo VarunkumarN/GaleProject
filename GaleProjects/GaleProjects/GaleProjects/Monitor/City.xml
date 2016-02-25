@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--This config file defines the location of the UpdateManager deploy server.           -->
+<!-- The name attribute is the environment name; usually "LIVE", "QA" or "TRAIN"        -->
+<!-- The host attribute is the host name of the UpdateManager deploy server             -->
+<!-- The port attribute is the port number of the UpdateManager deploy server           -->
+<!-- Other attributes:                                                                  -->
+<!--  verbosity - controls user interaction with Update Manager UI                      -->
+<!--  updateInterval - number of minutes between automatic check for updates processing -->
+<!--  assemblyLoadInterval - number of minutes between times the process loads known    -->
+<!--           application assemblies to keep the user environment in a warmed up state -->
+<configuration>
+ <item Cityid="1" City="Nicobar" Statid="1" ></item>
+<item Cityid="2" City="North and Middle Andaman" Statid="1" ></item>
+<item Cityid="3" City="South Andaman" Statid="1" ></item>
+<item Cityid="4" City="Anantapur" Statid="2" ></item>
+<item Cityid="5" City="Chittoor" Statid="2" ></item>
+<item Cityid="6" City="Cuddapah" Statid="2" ></item>
+<item Cityid="7" City="East Godavari" Statid="2" ></item>
+<item Cityid="8" City="Guntur" Statid="2" ></item>
+<item Cityid="9" City="Krishna" Statid="2" ></item>
+<item Cityid="10" City="Kurnool" Statid="2" ></item>
+<item Cityid="11" City="Nellore" Statid="2" ></item>
+<item Cityid="12" City="Prakasam" Statid="2" ></item>
+<item Cityid="13" City="Srikakulam" Statid="2" ></item>
+<item Cityid="14" City="Visakhapatnam" Statid="2" ></item>
+<item Cityid="15" City="Vizianagaram" Statid="2" ></item>
+<item Cityid="16" City="West Godavari" Statid="2" ></item>
+<item Cityid="17" City="Anjaw" Statid="3" ></item>
+<item Cityid="18" City="Changlang" Statid="3" ></item>
+<item Cityid="19" City="Dibang Valley" Statid="3" ></item>
+<item Cityid="20" City="East Kameng" Statid="3" ></item>
+<item Cityid="21" City="East Siang" Statid="3" ></item>
+<item Cityid="22" City="Kurung Kumey" Statid="3" ></item>
+<item Cityid="23" City="Lohit" Statid="3" ></item>
+<item Cityid="24" City="Longding" Statid="3" ></item>
+<item Cityid="25" City="Lower Dibang Valley" Statid="3" ></item>
+<item Cityid="26" City="Lower Subansiri" Statid="3" ></item>
+<item Cityid="27" City="Papum Pare" Statid="3" ></item>
+<item Cityid="28" City="Tawang" Statid="3" ></item>
+<item Cityid="29" City="Tirap" Statid="3" ></item>
+<item Cityid="30" City="Upper Siang" Statid="3" ></item>
+<item Cityid="31" City="Upper Subansiri" Statid="3" ></item>
+<item Cityid="32" City="West Kameng" Statid="3" ></item>
+<item Cityid="33" City="West Siang" Statid="3" ></item>
+<item Cityid="34" City="Baksa" Statid="4" ></item>
+<item Cityid="35" City="Barpeta" Statid="4" ></item>
+<item Cityid="36" City="Bongaigaon" Statid="4" ></item>
+<item Cityid="37" City="Cachar" Statid="4" ></item>
+<item Cityid="38" City="Chirang" Statid="4" ></item>
+<item Cityid="39" City="Darrang" Statid="4" ></item>
+<item Cityid="40" City="Dhemaji" Statid="4" ></item>
+<item Cityid="41" City="Dhubri" Statid="4" ></item>
+<item Cityid="42" City="Dibrugarh" Statid="4" ></item>
+<item Cityid="43" City="Dima Hasao" Statid="4" ></item>
+<item Cityid="44" City="Goalpara" Statid="4" ></item>
+<item Cityid="45" City="Golaghat" Statid="4" ></item>
+<item Cityid="46" City="Hailakandi" Statid="4" ></item>
+<item Cityid="47" City="Jorhat" Statid="4" ></item>
+<item Cityid="48" City="Kamrup Metropolitan" Statid="4" ></item>
+<item Cityid="49" City="Kamrup" Statid="4" ></item>
+<item Cityid="50" City="Karbi Anglong" Statid="4" ></item>
+<item Cityid="51" City="Karimganj" Statid="4" ></item>
+<item Cityid="52" City="Kokrajhar" Statid="4" ></item>
+<item Cityid="53" City="Lakhimpur" Statid="4" ></item>
+<item Cityid="54" City="Morigaon" Statid="4" ></item>
+<item Cityid="55" City="Nagaon" Statid="4" ></item>
+<item Cityid="56" City="Nalbari" Statid="4" ></item>
+<item Cityid="57" City="Sivasagar" Statid="4" ></item>
+<item Cityid="58" City="Sonitpur" Statid="4" ></item>
+<item Cityid="59" City="Tinsukia" Statid="4" ></item>
+<item Cityid="60" City="Udalguri" Statid="4" ></item>
+<item Cityid="61" City="Araria" Statid="5" ></item>
+<item Cityid="62" City="Arwal" Statid="5" ></item>
+<item Cityid="63" City="Aurangabad" Statid="5" ></item>
+<item Cityid="64" City="Banka" Statid="5" ></item>
+<item Cityid="65" City="Begusarai" Statid="5" ></item>
+<item Cityid="66" City="Bhagalpur" Statid="5" ></item>
+<item Cityid="67" City="Bhojpur" Statid="5" ></item>
+<item Cityid="68" City="Buxar" Statid="5" ></item>
+<item Cityid="69" City="Darbhanga" Statid="5" ></item>
+<item Cityid="70" City="East Champaran (Motihari)" Statid="5" ></item>
+<item Cityid="71" City="Gaya" Statid="5" ></item>
+<item Cityid="72" City="Gopalganj" Statid="5" ></item>
+<item Cityid="73" City="Jamui" Statid="5" ></item>
+<item Cityid="74" City="Jehanabad" Statid="5" ></item>
+<item Cityid="75" City="Kaimur (Bhabua)" Statid="5" ></item>
+<item Cityid="76" City="Katihar" Statid="5" ></item>
+<item Cityid="77" City="Khagaria" Statid="5" ></item>
+<item Cityid="78" City="Kishanganj" Statid="5" ></item>
+<item Cityid="79" City="Lakhisarai" Statid="5" ></item>
+<item Cityid="80" City="Madhepura" Statid="5" ></item>
+<item Cityid="81" City="Madhubani" Statid="5" ></item>
+<item Cityid="82" City="Munger (Monghyr)" Statid="5" ></item>
+<item Cityid="83" City="Muzaffarpur" Statid="5" ></item>
+<item Cityid="84" City="Nalanda" Statid="5" ></item>
+<item Cityid="85" City="Nawada" Statid="5" ></item>
+<item Cityid="86" City="Patna" Statid="5" ></item>
+<item Cityid="87" City="Purnia (Purnea)" Statid="5" ></item>
+<item Cityid="88" City="Rohtas" Statid="5" ></item>
+<item Cityid="89" City="Saharsa" Statid="5" ></item>
+<item Cityid="90" City="Samastipur" Statid="5" ></item>
+<item Cityid="91" City="Saran" Statid="5" ></item>
+<item Cityid="92" City="Sheikhpura" Statid="5" ></item>
+<item Cityid="93" City="Sheohar" Statid="5" ></item>
+<item Cityid="94" City="Sitamarhi" Statid="5" ></item>
+<item Cityid="95" City="Siwan" Statid="5" ></item>
+<item Cityid="96" City="Supaul" Statid="5" ></item>
+<item Cityid="97" City="Vaishali" Statid="5" ></item>
+<item Cityid="98" City="West Champaran" Statid="5" ></item>
+<item Cityid="99" City="Chandigarh" Statid="6" ></item>
+<item Cityid="100" City="Balod" Statid="7" ></item>
+<item Cityid="101" City="Baloda Bazar" Statid="7" ></item>
+<item Cityid="102" City="Balrampur" Statid="7" ></item>
+<item Cityid="103" City="Bastar" Statid="7" ></item>
+<item Cityid="104" City="Bemetara" Statid="7" ></item>
+<item Cityid="105" City="Bijapur" Statid="7" ></item>
+<item Cityid="106" City="Bilaspur" Statid="7" ></item>
+<item Cityid="107" City="Dantewada (South Bastar)" Statid="7" ></item>
+<item Cityid="108" City="Dhamtari" Statid="7" ></item>
+<item Cityid="109" City="Durg" Statid="7" ></item>
+<item Cityid="110" City="Gariaband" Statid="7" ></item>
+<item Cityid="111" City="Janjgir-Champa" Statid="7" ></item>
+<item Cityid="112" City="Jashpur" Statid="7" ></item>
+<item Cityid="113" City="Kabirdham (Kawardha)" Statid="7" ></item>
+<item Cityid="114" City="Kanker (North Bastar)" Statid="7" ></item>
+<item Cityid="115" City="Kondagaon" Statid="7" ></item>
+<item Cityid="116" City="Korba" Statid="7" ></item>
+<item Cityid="117" City="Korea (Koriya)" Statid="7" ></item>
+<item Cityid="118" City="Mahasamund" Statid="7" ></item>
+<item Cityid="119" City="Mungeli" Statid="7" ></item>
+<item Cityid="120" City="Narayanpur" Statid="7" ></item>
+<item Cityid="121" City="Raigarh" Statid="7" ></item>
+<item Cityid="122" City="Raipur" Statid="7" ></item>
+<item Cityid="123" City="Rajnandgaon" Statid="7" ></item>
+<item Cityid="124" City="Sukma" Statid="7" ></item>
+<item Cityid="125" City="Surajpur" Statid="7" ></item>
+<item Cityid="126" City="Surguja" Statid="7" ></item>
+<item Cityid="127" City="Dadra and  Nagar Haveli" Statid="8" ></item>
+<item Cityid="128" City="Daman" Statid="9" ></item>
+<item Cityid="129" City="Diu" Statid="9" ></item>
+<item Cityid="130" City="Central Delhi" Statid="10" ></item>
+<item Cityid="131" City="East Delhi" Statid="10" ></item>
+<item Cityid="132" City="New Delhi" Statid="10" ></item>
+<item Cityid="133" City="North Delhi" Statid="10" ></item>
+<item Cityid="134" City="North East Delhi" Statid="10" ></item>
+<item Cityid="135" City="North West Delhi" Statid="10" ></item>
+<item Cityid="136" City="South Delhi" Statid="10" ></item>
+<item Cityid="137" City="South West Delhi" Statid="10" ></item>
+<item Cityid="138" City="West Delhi" Statid="10" ></item>
+<item Cityid="139" City="North Goa" Statid="11" ></item>
+<item Cityid="140" City="South Goa" Statid="11" ></item>
+<item Cityid="141" City="Ahmedabad" Statid="12" ></item>
+<item Cityid="142" City="Amreli" Statid="12" ></item>
+<item Cityid="143" City="Anand" Statid="12" ></item>
+<item Cityid="144" City="Aravalli" Statid="12" ></item>
+<item Cityid="145" City="Banaskantha (Palanpur)" Statid="12" ></item>
+<item Cityid="146" City="Bharuch" Statid="12" ></item>
+<item Cityid="147" City="Bhavnagar" Statid="12" ></item>
+<item Cityid="148" City="Botad" Statid="12" ></item>
+<item Cityid="149" City="Chhota Udepur" Statid="12" ></item>
+<item Cityid="150" City="Dahod" Statid="12" ></item>
+<item Cityid="151" City="Dangs (Ahwa)" Statid="12" ></item>
+<item Cityid="152" City="Devbhoomi Dwarka" Statid="12" ></item>
+<item Cityid="153" City="Gandhinagar" Statid="12" ></item>
+<item Cityid="154" City="Gir Somnath" Statid="12" ></item>
+<item Cityid="155" City="Jamnagar" Statid="12" ></item>
+<item Cityid="156" City="Junagadh" Statid="12" ></item>
+<item Cityid="157" City="Kachchh" Statid="12" ></item>
+<item Cityid="158" City="Kheda (Nadiad)" Statid="12" ></item>
+<item Cityid="159" City="Mahisagar" Statid="12" ></item>
+<item Cityid="160" City="Mehsana" Statid="12" ></item>
+<item Cityid="161" City="Morbi" Statid="12" ></item>
+<item Cityid="162" City="Narmada (Rajpipla)" Statid="12" ></item>
+<item Cityid="163" City="Navsari" Statid="12" ></item>
+<item Cityid="164" City="Panchmahal (Godhra)" Statid="12" ></item>
+<item Cityid="165" City="Patan" Statid="12" ></item>
+<item Cityid="166" City="Porbandar" Statid="12" ></item>
+<item Cityid="167" City="Rajkot" Statid="12" ></item>
+<item Cityid="168" City="Sabarkantha (Himmatnagar)" Statid="12" ></item>
+<item Cityid="169" City="Surat" Statid="12" ></item>
+<item Cityid="170" City="Surendranagar" Statid="12" ></item>
+<item Cityid="171" City="Tapi (Vyara)" Statid="12" ></item>
+<item Cityid="172" City="Vadodara" Statid="12" ></item>
+<item Cityid="173" City="Valsad" Statid="12" ></item>
+<item Cityid="174" City="Ambala" Statid="13" ></item>
+<item Cityid="175" City="Bhiwani" Statid="13" ></item>
+<item Cityid="176" City="Faridabad" Statid="13" ></item>
+<item Cityid="177" City="Fatehabad" Statid="13" ></item>
+<item Cityid="178" City="Gurgaon" Statid="13" ></item>
+<item Cityid="179" City="Hisar" Statid="13" ></item>
+<item Cityid="180" City="Jhajjar" Statid="13" ></item>
+<item Cityid="181" City="Jind" Statid="13" ></item>
+<item Cityid="182" City="Kaithal" Statid="13" ></item>
+<item Cityid="183" City="Karnal" Statid="13" ></item>
+<item Cityid="184" City="Kurukshetra" Statid="13" ></item>
+<item Cityid="185" City="Mahendragarh" Statid="13" ></item>
+<item Cityid="186" City="Mewat" Statid="13" ></item>
+<item Cityid="187" City="Palwal" Statid="13" ></item>
+<item Cityid="188" City="Panchkula" Statid="13" ></item>
+<item Cityid="189" City="Panipat" Statid="13" ></item>
+<item Cityid="190" City="Rewari" Statid="13" ></item>
+<item Cityid="191" City="Rohtak" Statid="13" ></item>
+<item Cityid="192" City="Sirsa" Statid="13" ></item>
+<item Cityid="193" City="Sonipat" Statid="13" ></item>
+<item Cityid="194" City="Yamunanagar" Statid="13" ></item>
+<item Cityid="195" City="Bilaspur" Statid="14" ></item>
+<item Cityid="196" City="Chamba" Statid="14" ></item>
+<item Cityid="197" City="Hamirpur" Statid="14" ></item>
+<item Cityid="198" City="Kangra" Statid="14" ></item>
+<item Cityid="199" City="Kinnaur" Statid="14" ></item>
+<item Cityid="200" City="Kullu" Statid="14" ></item>
+<item Cityid="201" City="Lahaul and Spiti" Statid="14" ></item>
+<item Cityid="202" City="Mandi" Statid="14" ></item>
+<item Cityid="203" City="Shimla" Statid="14" ></item>
+<item Cityid="204" City="Sirmaur (Sirmour)" Statid="14" ></item>
+<item Cityid="205" City="Solan" Statid="14" ></item>
+<item Cityid="206" City="Una" Statid="14" ></item>
+<item Cityid="207" City="Anantnag" Statid="15" ></item>
+<item Cityid="208" City="Bandipora" Statid="15" ></item>
+<item Cityid="209" City="Baramulla" Statid="15" ></item>
+<item Cityid="210" City="Budgam" Statid="15" ></item>
+<item Cityid="211" City="Doda" Statid="15" ></item>
+<item Cityid="212" City="Ganderbal" Statid="15" ></item>
+<item Cityid="213" City="Jammu" Statid="15" ></item>
+<item Cityid="214" City="Kargil" Statid="15" ></item>
+<item Cityid="215" City="Kathua" Statid="15" ></item>
+<item Cityid="216" City="Kishtwar" Statid="15" ></item>
+<item Cityid="217" City="Kulgam" Statid="15" ></item>
+<item Cityid="218" City="Kupwara" Statid="15" ></item>
+<item Cityid="219" City="Leh" Statid="15" ></item>
+<item Cityid="220" City="Poonch" Statid="15" ></item>
+<item Cityid="221" City="Pulwama" Statid="15" ></item>
+<item Cityid="222" City="Rajouri" Statid="15" ></item>
+<item Cityid="223" City="Ramban" Statid="15" ></item>
+<item Cityid="224" City="Reasi" Statid="15" ></item>
+<item Cityid="225" City="Samba" Statid="15" ></item>
+<item Cityid="226" City="Shopian" Statid="15" ></item>
+<item Cityid="227" City="Srinagar" Statid="15" ></item>
+<item Cityid="228" City="Udhampur" Statid="15" ></item>
+<item Cityid="229" City="Bokaro" Statid="16" ></item>
+<item Cityid="230" City="Chatra" Statid="16" ></item>
+<item Cityid="231" City="Deoghar" Statid="16" ></item>
+<item Cityid="232" City="Dhanbad" Statid="16" ></item>
+<item Cityid="233" City="Dumka" Statid="16" ></item>
+<item Cityid="234" City="East Singhbhum" Statid="16" ></item>
+<item Cityid="235" City="Garhwa" Statid="16" ></item>
+<item Cityid="236" City="Giridih" Statid="16" ></item>
+<item Cityid="237" City="Godda" Statid="16" ></item>
+<item Cityid="238" City="Gumla" Statid="16" ></item>
+<item Cityid="239" City="Hazaribag" Statid="16" ></item>
+<item Cityid="240" City="Jamtara" Statid="16" ></item>
+<item Cityid="241" City="Khunti" Statid="16" ></item>
+<item Cityid="242" City="Koderma" Statid="16" ></item>
+<item Cityid="243" City="Latehar" Statid="16" ></item>
+<item Cityid="244" City="Lohardaga" Statid="16" ></item>
+<item Cityid="245" City="Pakur" Statid="16" ></item>
+<item Cityid="246" City="Palamu" Statid="16" ></item>
+<item Cityid="247" City="Ramgarh" Statid="16" ></item>
+<item Cityid="248" City="Ranchi" Statid="16" ></item>
+<item Cityid="249" City="Sahibganj" Statid="16" ></item>
+<item Cityid="250" City="Seraikela Kharsawan" Statid="16" ></item>
+<item Cityid="251" City="Simdega" Statid="16" ></item>
+<item Cityid="252" City="West Singhbhum" Statid="16" ></item>
+<item Cityid="253" City="Bagalkot" Statid="17" ></item>
+<item Cityid="254" City="Bangalore Rural" Statid="17" ></item>
+<item Cityid="255" City="Bangalore Urban" Statid="17" ></item>
+<item Cityid="256" City="Belgaum" Statid="17" ></item>
+<item Cityid="257" City="Bellary" Statid="17" ></item>
+<item Cityid="258" City="Bidar" Statid="17" ></item>
+<item Cityid="259" City="Bijapur" Statid="17" ></item>
+<item Cityid="260" City="Chamarajanagar" Statid="17" ></item>
+<item Cityid="261" City="Chickmagalur" Statid="17" ></item>
+<item Cityid="262" City="Chikballapur" Statid="17" ></item>
+<item Cityid="263" City="Chitradurga" Statid="17" ></item>
+<item Cityid="264" City="Dakshina Kannada" Statid="17" ></item>
+<item Cityid="265" City="Davangere" Statid="17" ></item>
+<item Cityid="266" City="Dharwad" Statid="17" ></item>
+<item Cityid="267" City="Gadag" Statid="17" ></item>
+<item Cityid="268" City="Gulbarga" Statid="17" ></item>
+<item Cityid="269" City="Hassan" Statid="17" ></item>
+<item Cityid="270" City="Haveri" Statid="17" ></item>
+<item Cityid="271" City="Kodagu" Statid="17" ></item>
+<item Cityid="272" City="Kolar" Statid="17" ></item>
+<item Cityid="273" City="Koppal" Statid="17" ></item>
+<item Cityid="274" City="Mandya" Statid="17" ></item>
+<item Cityid="275" City="Mysore" Statid="17" ></item>
+<item Cityid="276" City="Raichur" Statid="17" ></item>
+<item Cityid="277" City="Ramnagara" Statid="17" ></item>
+<item Cityid="278" City="Shimoga" Statid="17" ></item>
+<item Cityid="279" City="Tumkur" Statid="17" ></item>
+<item Cityid="280" City="Udupi" Statid="17" ></item>
+<item Cityid="281" City="Uttara Kannada" Statid="17" ></item>
+<item Cityid="282" City="Yadgir" Statid="17" ></item>
+<item Cityid="283" City="Alappuzha" Statid="18" ></item>
+<item Cityid="284" City="Ernakulam" Statid="18" ></item>
+<item Cityid="285" City="Idukki" Statid="18" ></item>
+<item Cityid="286" City="Kannur" Statid="18" ></item>
+<item Cityid="287" City="Kasaragod" Statid="18" ></item>
+<item Cityid="288" City="Kollam" Statid="18" ></item>
+<item Cityid="289" City="Kottayam" Statid="18" ></item>
+<item Cityid="290" City="Kozhikode" Statid="18" ></item>
+<item Cityid="291" City="Malappuram" Statid="18" ></item>
+<item Cityid="292" City="Palakkad" Statid="18" ></item>
+<item Cityid="293" City="Pathanamthitta" Statid="18" ></item>
+<item Cityid="294" City="Thiruvananthapuram" Statid="18" ></item>
+<item Cityid="295" City="Thrissur" Statid="18" ></item>
+<item Cityid="296" City="Wayanad" Statid="18" ></item>
+<item Cityid="297" City="Lakshadweep" Statid="19" ></item>
+<item Cityid="298" City="Alirajpur" Statid="20" ></item>
+<item Cityid="299" City="Anuppur" Statid="20" ></item>
+<item Cityid="300" City="Ashoknagar" Statid="20" ></item>
+<item Cityid="301" City="Balaghat" Statid="20" ></item>
+<item Cityid="302" City="Barwani" Statid="20" ></item>
+<item Cityid="303" City="Betul" Statid="20" ></item>
+<item Cityid="304" City="Bhind" Statid="20" ></item>
+<item Cityid="305" City="Bhopal" Statid="20" ></item>
+<item Cityid="306" City="Burhanpur" Statid="20" ></item>
+<item Cityid="307" City="Chhatarpur" Statid="20" ></item>
+<item Cityid="308" City="Chhindwara" Statid="20" ></item>
+<item Cityid="309" City="Damoh" Statid="20" ></item>
+<item Cityid="310" City="Datia" Statid="20" ></item>
+<item Cityid="311" City="Dewas" Statid="20" ></item>
+<item Cityid="312" City="Dhar" Statid="20" ></item>
+<item Cityid="313" City="Dindori" Statid="20" ></item>
+<item Cityid="314" City="Guna" Statid="20" ></item>
+<item Cityid="315" City="Gwalior" Statid="20" ></item>
+<item Cityid="316" City="Harda" Statid="20" ></item>
+<item Cityid="317" City="Hoshangabad" Statid="20" ></item>
+<item Cityid="318" City="Indore" Statid="20" ></item>
+<item Cityid="319" City="Jabalpur" Statid="20" ></item>
+<item Cityid="320" City="Jhabua" Statid="20" ></item>
+<item Cityid="321" City="Katni" Statid="20" ></item>
+<item Cityid="322" City="Khandwa" Statid="20" ></item>
+<item Cityid="323" City="Khargone" Statid="20" ></item>
+<item Cityid="324" City="Mandla" Statid="20" ></item>
+<item Cityid="325" City="Mandsaur" Statid="20" ></item>
+<item Cityid="326" City="Morena" Statid="20" ></item>
+<item Cityid="327" City="Narsinghpur" Statid="20" ></item>
+<item Cityid="328" City="Neemuch" Statid="20" ></item>
+<item Cityid="329" City="Panna" Statid="20" ></item>
+<item Cityid="330" City="Raisen" Statid="20" ></item>
+<item Cityid="331" City="Rajgarh" Statid="20" ></item>
+<item Cityid="332" City="Ratlam" Statid="20" ></item>
+<item Cityid="333" City="Rewa" Statid="20" ></item>
+<item Cityid="334" City="Sagar" Statid="20" ></item>
+<item Cityid="335" City="Satna" Statid="20" ></item>
+<item Cityid="336" City="Sehore" Statid="20" ></item>
+<item Cityid="337" City="Seoni" Statid="20" ></item>
+<item Cityid="338" City="Shahdol" Statid="20" ></item>
+<item Cityid="339" City="Shajapur" Statid="20" ></item>
+<item Cityid="340" City="Sheopur" Statid="20" ></item>
+<item Cityid="341" City="Shivpuri" Statid="20" ></item>
+<item Cityid="342" City="Sidhi" Statid="20" ></item>
+<item Cityid="343" City="Singrauli" Statid="20" ></item>
+<item Cityid="344" City="Tikamgarh" Statid="20" ></item>
+<item Cityid="345" City="Ujjain" Statid="20" ></item>
+<item Cityid="346" City="Umaria" Statid="20" ></item>
+<item Cityid="347" City="Vidisha" Statid="20" ></item>
+<item Cityid="348" City="Ahmednagar" Statid="21" ></item>
+<item Cityid="349" City="Akola" Statid="21" ></item>
+<item Cityid="350" City="Amravati" Statid="21" ></item>
+<item Cityid="351" City="Aurangabad" Statid="21" ></item>
+<item Cityid="352" City="Beed" Statid="21" ></item>
+<item Cityid="353" City="Bhandara" Statid="21" ></item>
+<item Cityid="354" City="Buldhana" Statid="21" ></item>
+<item Cityid="355" City="Chandrapur" Statid="21" ></item>
+<item Cityid="356" City="Dhule" Statid="21" ></item>
+<item Cityid="357" City="Gadchiroli" Statid="21" ></item>
+<item Cityid="358" City="Gondia" Statid="21" ></item>
+<item Cityid="359" City="Hingoli" Statid="21" ></item>
+<item Cityid="360" City="Jalgaon" Statid="21" ></item>
+<item Cityid="361" City="Jalna" Statid="21" ></item>
+<item Cityid="362" City="Kolhapur" Statid="21" ></item>
+<item Cityid="363" City="Latur" Statid="21" ></item>
+<item Cityid="364" City="Mumbai City" Statid="21" ></item>
+<item Cityid="365" City="Mumbai Suburban" Statid="21" ></item>
+<item Cityid="366" City="Nagpur" Statid="21" ></item>
+<item Cityid="367" City="Nanded" Statid="21" ></item>
+<item Cityid="368" City="Nandurbar" Statid="21" ></item>
+<item Cityid="369" City="Nashik" Statid="21" ></item>
+<item Cityid="370" City="Osmanabad" Statid="21" ></item>
+<item Cityid="371" City="Parbhani" Statid="21" ></item>
+<item Cityid="372" City="Pune" Statid="21" ></item>
+<item Cityid="373" City="Raigad" Statid="21" ></item>
+<item Cityid="374" City="Ratnagiri" Statid="21" ></item>
+<item Cityid="375" City="Sangli" Statid="21" ></item>
+<item Cityid="376" City="Satara" Statid="21" ></item>
+<item Cityid="377" City="Sindhudurg" Statid="21" ></item>
+<item Cityid="378" City="Solapur" Statid="21" ></item>
+<item Cityid="379" City="Thane" Statid="21" ></item>
+<item Cityid="380" City="Wardha" Statid="21" ></item>
+<item Cityid="381" City="Washim" Statid="21" ></item>
+<item Cityid="382" City="Yavatmal" Statid="21" ></item>
+<item Cityid="383" City="Bishnupur" Statid="22" ></item>
+<item Cityid="384" City="Chandel" Statid="22" ></item>
+<item Cityid="385" City="Churachandpur" Statid="22" ></item>
+<item Cityid="386" City="Imphal East" Statid="22" ></item>
+<item Cityid="387" City="Imphal West" Statid="22" ></item>
+<item Cityid="388" City="Senapati" Statid="22" ></item>
+<item Cityid="389" City="Tamenglong" Statid="22" ></item>
+<item Cityid="390" City="Thoubal" Statid="22" ></item>
+<item Cityid="391" City="Ukhrul" Statid="22" ></item>
+<item Cityid="392" City="East Garo Hills" Statid="23" ></item>
+<item Cityid="393" City="East Jaintia Hills" Statid="23" ></item>
+<item Cityid="394" City="East Khasi Hills" Statid="23" ></item>
+<item Cityid="395" City="North Garo Hills" Statid="23" ></item>
+<item Cityid="396" City="Ri Bhoi" Statid="23" ></item>
+<item Cityid="397" City="South Garo Hills" Statid="23" ></item>
+<item Cityid="398" City="South West Garo Hills" Statid="23" ></item>
+<item Cityid="399" City="South West Khasi Hills" Statid="23" ></item>
+<item Cityid="400" City="West Garo Hills" Statid="23" ></item>
+<item Cityid="401" City="West Jaintia Hills" Statid="23" ></item>
+<item Cityid="402" City="West Khasi Hills" Statid="23" ></item>
+<item Cityid="403" City="Aizawl" Statid="24" ></item>
+<item Cityid="404" City="Champhai" Statid="24" ></item>
+<item Cityid="405" City="Kolasib" Statid="24" ></item>
+<item Cityid="406" City="Lawngtlai" Statid="24" ></item>
+<item Cityid="407" City="Lunglei" Statid="24" ></item>
+<item Cityid="408" City="Mamit" Statid="24" ></item>
+<item Cityid="409" City="Saiha" Statid="24" ></item>
+<item Cityid="410" City="Serchhip" Statid="24" ></item>
+<item Cityid="411" City="Dimapur" Statid="25" ></item>
+<item Cityid="412" City="Kiphire" Statid="25" ></item>
+<item Cityid="413" City="Kohima" Statid="25" ></item>
+<item Cityid="414" City="Longleng" Statid="25" ></item>
+<item Cityid="415" City="Mokokchung" Statid="25" ></item>
+<item Cityid="416" City="Mon" Statid="25" ></item>
+<item Cityid="417" City="Peren" Statid="25" ></item>
+<item Cityid="418" City="Phek" Statid="25" ></item>
+<item Cityid="419" City="Tuensang" Statid="25" ></item>
+<item Cityid="420" City="Wokha" Statid="25" ></item>
+<item Cityid="421" City="Zunheboto" Statid="25" ></item>
+<item Cityid="422" City="Angul" Statid="26" ></item>
+<item Cityid="423" City="Balangir" Statid="26" ></item>
+<item Cityid="424" City="Balasore" Statid="26" ></item>
+<item Cityid="425" City="Bargarh" Statid="26" ></item>
+<item Cityid="426" City="Bhadrak" Statid="26" ></item>
+<item Cityid="427" City="Boudh" Statid="26" ></item>
+<item Cityid="428" City="Cuttack" Statid="26" ></item>
+<item Cityid="429" City="Deogarh" Statid="26" ></item>
+<item Cityid="430" City="Dhenkanal" Statid="26" ></item>
+<item Cityid="431" City="Gajapati" Statid="26" ></item>
+<item Cityid="432" City="Ganjam" Statid="26" ></item>
+<item Cityid="433" City="Jagatsinghapur" Statid="26" ></item>
+<item Cityid="434" City="Jajpur" Statid="26" ></item>
+<item Cityid="435" City="Jharsuguda" Statid="26" ></item>
+<item Cityid="436" City="Kalahandi" Statid="26" ></item>
+<item Cityid="437" City="Kandhamal" Statid="26" ></item>
+<item Cityid="438" City="Kendrapara" Statid="26" ></item>
+<item Cityid="439" City="Kendujhar" Statid="26" ></item>
+<item Cityid="440" City="Khordha" Statid="26" ></item>
+<item Cityid="441" City="Koraput" Statid="26" ></item>
+<item Cityid="442" City="Malkangiri" Statid="26" ></item>
+<item Cityid="443" City="Mayurbhanj" Statid="26" ></item>
+<item Cityid="444" City="Nabarangpur" Statid="26" ></item>
+<item Cityid="445" City="Nayagarh" Statid="26" ></item>
+<item Cityid="446" City="Nuapada" Statid="26" ></item>
+<item Cityid="447" City="Puri" Statid="26" ></item>
+<item Cityid="448" City="Rayagada" Statid="26" ></item>
+<item Cityid="449" City="Sambalpur" Statid="26" ></item>
+<item Cityid="450" City="Sonepur" Statid="26" ></item>
+<item Cityid="451" City="Sundargarh" Statid="26" ></item>
+<item Cityid="452" City="Karaikal" Statid="27" ></item>
+<item Cityid="453" City="Mahe" Statid="27" ></item>
+<item Cityid="454" City="Pondicherry" Statid="27" ></item>
+<item Cityid="455" City="Yanam" Statid="27" ></item>
+<item Cityid="456" City="Amritsar" Statid="28" ></item>
+<item Cityid="457" City="Barnala" Statid="28" ></item>
+<item Cityid="458" City="Bathinda" Statid="28" ></item>
+<item Cityid="459" City="Faridkot" Statid="28" ></item>
+<item Cityid="460" City="Fatehgarh Sahib" Statid="28" ></item>
+<item Cityid="461" City="Fazilka" Statid="28" ></item>
+<item Cityid="462" City="Ferozepur" Statid="28" ></item>
+<item Cityid="463" City="Gurdaspur" Statid="28" ></item>
+<item Cityid="464" City="Hoshiarpur" Statid="28" ></item>
+<item Cityid="465" City="Jalandhar" Statid="28" ></item>
+<item Cityid="466" City="Kapurthala" Statid="28" ></item>
+<item Cityid="467" City="Ludhiana" Statid="28" ></item>
+<item Cityid="468" City="Mansa" Statid="28" ></item>
+<item Cityid="469" City="Moga" Statid="28" ></item>
+<item Cityid="470" City="Muktsar" Statid="28" ></item>
+<item Cityid="471" City="Nawanshahr" Statid="28" ></item>
+<item Cityid="472" City="Pathankot" Statid="28" ></item>
+<item Cityid="473" City="Patiala" Statid="28" ></item>
+<item Cityid="474" City="Rupnagar" Statid="28" ></item>
+<item Cityid="475" City="Sangrur" Statid="28" ></item>
+<item Cityid="476" City="SAS Nagar (Mohali)" Statid="28" ></item>
+<item Cityid="477" City="Tarn Taran" Statid="28" ></item>
+<item Cityid="478" City="Ajmer" Statid="29" ></item>
+<item Cityid="479" City="Alwar" Statid="29" ></item>
+<item Cityid="480" City="Banswara" Statid="29" ></item>
+<item Cityid="481" City="Baran" Statid="29" ></item>
+<item Cityid="482" City="Barmer" Statid="29" ></item>
+<item Cityid="483" City="Bharatpur" Statid="29" ></item>
+<item Cityid="484" City="Bhilwara" Statid="29" ></item>
+<item Cityid="485" City="Bikaner" Statid="29" ></item>
+<item Cityid="486" City="Bundi" Statid="29" ></item>
+<item Cityid="487" City="Chittorgarh" Statid="29" ></item>
+<item Cityid="488" City="Churu" Statid="29" ></item>
+<item Cityid="489" City="Dausa" Statid="29" ></item>
+<item Cityid="490" City="Dholpur" Statid="29" ></item>
+<item Cityid="491" City="Dungarpur" Statid="29" ></item>
+<item Cityid="492" City="Hanumangarh" Statid="29" ></item>
+<item Cityid="493" City="Jaipur" Statid="29" ></item>
+<item Cityid="494" City="Jaisalmer" Statid="29" ></item>
+<item Cityid="495" City="Jalore" Statid="29" ></item>
+<item Cityid="496" City="Jhalawar" Statid="29" ></item>
+<item Cityid="497" City="Jhunjhunu" Statid="29" ></item>
+<item Cityid="498" City="Jodhpur" Statid="29" ></item>
+<item Cityid="499" City="Karauli" Statid="29" ></item>
+<item Cityid="500" City="Kota" Statid="29" ></item>
+<item Cityid="501" City="Nagaur" Statid="29" ></item>
+<item Cityid="502" City="Pali" Statid="29" ></item>
+<item Cityid="503" City="Pratapgarh" Statid="29" ></item>
+<item Cityid="504" City="Rajsamand" Statid="29" ></item>
+<item Cityid="505" City="Sawai Madhopur" Statid="29" ></item>
+<item Cityid="506" City="Sikar" Statid="29" ></item>
+<item Cityid="507" City="Sirohi" Statid="29" ></item>
+<item Cityid="508" City="Sri Ganganagar" Statid="29" ></item>
+<item Cityid="509" City="Tonk" Statid="29" ></item>
+<item Cityid="510" City="Udaipur" Statid="29" ></item>
+<item Cityid="511" City="East Sikkim" Statid="30" ></item>
+<item Cityid="512" City="North Sikkim" Statid="30" ></item>
+<item Cityid="513" City="South Sikkim" Statid="30" ></item>
+<item Cityid="514" City="West Sikkim" Statid="30" ></item>
+<item Cityid="515" City="Ariyalur" Statid="31" ></item>
+<item Cityid="516" City="Chennai" Statid="31" ></item>
+<item Cityid="517" City="Coimbatore" Statid="31" ></item>
+<item Cityid="518" City="Cuddalore" Statid="31" ></item>
+<item Cityid="519" City="Dharmapuri" Statid="31" ></item>
+<item Cityid="520" City="Dindigul" Statid="31" ></item>
+<item Cityid="521" City="Erode" Statid="31" ></item>
+<item Cityid="522" City="Kanchipuram" Statid="31" ></item>
+<item Cityid="523" City="Kanyakumari" Statid="31" ></item>
+<item Cityid="524" City="Karur" Statid="31" ></item>
+<item Cityid="525" City="Krishnagiri" Statid="31" ></item>
+<item Cityid="526" City="Madurai" Statid="31" ></item>
+<item Cityid="527" City="Nagapattinam" Statid="31" ></item>
+<item Cityid="528" City="Namakkal" Statid="31" ></item>
+<item Cityid="529" City="Nilgiris" Statid="31" ></item>
+<item Cityid="530" City="Perambalur" Statid="31" ></item>
+<item Cityid="531" City="Pudukkottai" Statid="31" ></item>
+<item Cityid="532" City="Ramanathapuram" Statid="31" ></item>
+<item Cityid="533" City="Salem" Statid="31" ></item>
+<item Cityid="534" City="Sivaganga" Statid="31" ></item>
+<item Cityid="535" City="Thanjavur" Statid="31" ></item>
+<item Cityid="536" City="Theni" Statid="31" ></item>
+<item Cityid="537" City="Thoothukudi" Statid="31" ></item>
+<item Cityid="538" City="Tiruchirappalli" Statid="31" ></item>
+<item Cityid="539" City="Tirunelveli" Statid="31" ></item>
+<item Cityid="540" City="Tiruppur" Statid="31" ></item>
+<item Cityid="541" City="Tiruvallur" Statid="31" ></item>
+<item Cityid="542" City="Tiruvannamalai" Statid="31" ></item>
+<item Cityid="543" City="Tiruvarur" Statid="31" ></item>
+<item Cityid="544" City="Vellore" Statid="31" ></item>
+<item Cityid="545" City="Viluppuram" Statid="31" ></item>
+<item Cityid="546" City="Virudhunagar" Statid="31" ></item>
+<item Cityid="547" City="Adilabad" Statid="32" ></item>
+<item Cityid="548" City="Hyderabad" Statid="32" ></item>
+<item Cityid="549" City="Karimnagar" Statid="32" ></item>
+<item Cityid="550" City="Khammam" Statid="32" ></item>
+<item Cityid="551" City="Mahabubnagar" Statid="32" ></item>
+<item Cityid="552" City="Medak" Statid="32" ></item>
+<item Cityid="553" City="Nalgonda" Statid="32" ></item>
+<item Cityid="554" City="Nizamabad" Statid="32" ></item>
+<item Cityid="555" City="Rangareddy" Statid="32" ></item>
+<item Cityid="556" City="Warangal" Statid="32" ></item>
+<item Cityid="557" City="Dhalai" Statid="33" ></item>
+<item Cityid="558" City="Gomati" Statid="33" ></item>
+<item Cityid="559" City="Khowai" Statid="33" ></item>
+<item Cityid="560" City="North Tripura" Statid="33" ></item>
+<item Cityid="561" City="Sepahijala" Statid="33" ></item>
+<item Cityid="562" City="South Tripura" Statid="33" ></item>
+<item Cityid="563" City="Unakoti" Statid="33" ></item>
+<item Cityid="564" City="West Tripura" Statid="33" ></item>
+<item Cityid="565" City="Agra" Statid="34" ></item>
+<item Cityid="566" City="Aligarh" Statid="34" ></item>
+<item Cityid="567" City="Allahabad" Statid="34" ></item>
+<item Cityid="568" City="Ambedkar Nagar" Statid="34" ></item>
+<item Cityid="569" City="Auraiya" Statid="34" ></item>
+<item Cityid="570" City="Azamgarh" Statid="34" ></item>
+<item Cityid="571" City="Baghpat" Statid="34" ></item>
+<item Cityid="572" City="Bahraich" Statid="34" ></item>
+<item Cityid="573" City="Ballia" Statid="34" ></item>
+<item Cityid="574" City="Balrampur" Statid="34" ></item>
+<item Cityid="575" City="Banda" Statid="34" ></item>
+<item Cityid="576" City="Barabanki" Statid="34" ></item>
+<item Cityid="577" City="Bareilly" Statid="34" ></item>
+<item Cityid="578" City="Basti" Statid="34" ></item>
+<item Cityid="579" City="Bhim Nagar" Statid="34" ></item>
+<item Cityid="580" City="Bijnor" Statid="34" ></item>
+<item Cityid="581" City="Budaun" Statid="34" ></item>
+<item Cityid="582" City="Bulandshahr" Statid="34" ></item>
+<item Cityid="583" City="Chandauli" Statid="34" ></item>
+<item Cityid="584" City="Chatrapati Sahuji Mahraj Nagar" Statid="34" ></item>
+<item Cityid="585" City="Chitrakoot" Statid="34" ></item>
+<item Cityid="586" City="Deoria" Statid="34" ></item>
+<item Cityid="587" City="Etah" Statid="34" ></item>
+<item Cityid="588" City="Etawah" Statid="34" ></item>
+<item Cityid="589" City="Faizabad" Statid="34" ></item>
+<item Cityid="590" City="Farrukhabad" Statid="34" ></item>
+<item Cityid="591" City="Fatehpur" Statid="34" ></item>
+<item Cityid="592" City="Firozabad" Statid="34" ></item>
+<item Cityid="593" City="Gautam Buddha Nagar" Statid="34" ></item>
+<item Cityid="594" City="Ghaziabad" Statid="34" ></item>
+<item Cityid="595" City="Ghazipur" Statid="34" ></item>
+<item Cityid="596" City="Gonda" Statid="34" ></item>
+<item Cityid="597" City="Gorakhpur" Statid="34" ></item>
+<item Cityid="598" City="Hamirpur" Statid="34" ></item>
+<item Cityid="599" City="Hardoi" Statid="34" ></item>
+<item Cityid="600" City="Hathras" Statid="34" ></item>
+<item Cityid="601" City="Jalaun" Statid="34" ></item>
+<item Cityid="602" City="Jaunpur" Statid="34" ></item>
+<item Cityid="603" City="Jhansi" Statid="34" ></item>
+<item Cityid="604" City="Jyotiba Phule Nagar" Statid="34" ></item>
+<item Cityid="605" City="Kannauj" Statid="34" ></item>
+<item Cityid="606" City="Kanpur Dehat" Statid="34" ></item>
+<item Cityid="607" City="Kanpur Nagar" Statid="34" ></item>
+<item Cityid="608" City="Kanshiram Nagar" Statid="34" ></item>
+<item Cityid="609" City="Kaushambi" Statid="34" ></item>
+<item Cityid="610" City="Kushinagar" Statid="34" ></item>
+<item Cityid="611" City="Lakhimpur Kheri" Statid="34" ></item>
+<item Cityid="612" City="Lalitpur" Statid="34" ></item>
+<item Cityid="613" City="Lucknow" Statid="34" ></item>
+<item Cityid="614" City="Maharajganj" Statid="34" ></item>
+<item Cityid="615" City="Mahoba" Statid="34" ></item>
+<item Cityid="616" City="Mainpuri" Statid="34" ></item>
+<item Cityid="617" City="Mathura" Statid="34" ></item>
+<item Cityid="618" City="Mau" Statid="34" ></item>
+<item Cityid="619" City="Meerut" Statid="34" ></item>
+<item Cityid="620" City="Mirzapur" Statid="34" ></item>
+<item Cityid="621" City="Moradabad" Statid="34" ></item>
+<item Cityid="622" City="Muzaffarnagar" Statid="34" ></item>
+<item Cityid="623" City="Panchsheel Nagar" Statid="34" ></item>
+<item Cityid="624" City="Pilibhit" Statid="34" ></item>
+<item Cityid="625" City="Prabuddh Nagar" Statid="34" ></item>
+<item Cityid="626" City="Pratapgarh" Statid="34" ></item>
+<item Cityid="627" City="RaeBareli" Statid="34" ></item>
+<item Cityid="628" City="Rampur" Statid="34" ></item>
+<item Cityid="629" City="Saharanpur" Statid="34" ></item>
+<item Cityid="630" City="Sant Kabir Nagar" Statid="34" ></item>
+<item Cityid="631" City="Sant Ravidas Nagar" Statid="34" ></item>
+<item Cityid="632" City="Shahjahanpur" Statid="34" ></item>
+<item Cityid="633" City="Shravasti" Statid="34" ></item>
+<item Cityid="634" City="Siddharth Nagar" Statid="34" ></item>
+<item Cityid="635" City="Sitapur" Statid="34" ></item>
+<item Cityid="636" City="Sonbhadra" Statid="34" ></item>
+<item Cityid="637" City="Sultanpur" Statid="34" ></item>
+<item Cityid="638" City="Unnao" Statid="34" ></item>
+<item Cityid="639" City="Varanasi" Statid="34" ></item>
+<item Cityid="640" City="Almora" Statid="35" ></item>
+<item Cityid="641" City="Bageshwar" Statid="35" ></item>
+<item Cityid="642" City="Chamoli" Statid="35" ></item>
+<item Cityid="643" City="Champawat" Statid="35" ></item>
+<item Cityid="644" City="Dehradun" Statid="35" ></item>
+<item Cityid="645" City="Haridwar" Statid="35" ></item>
+<item Cityid="646" City="Nainital" Statid="35" ></item>
+<item Cityid="647" City="Pauri Garhwal" Statid="35" ></item>
+<item Cityid="648" City="Pithoragarh" Statid="35" ></item>
+<item Cityid="649" City="Rudraprayag" Statid="35" ></item>
+<item Cityid="650" City="Tehri Garhwal" Statid="35" ></item>
+<item Cityid="651" City="Udham Singh Nagar" Statid="35" ></item>
+<item Cityid="652" City="Uttarkashi" Statid="35" ></item>
+<item Cityid="653" City="Bankura" Statid="36" ></item>
+<item Cityid="654" City="Birbhum" Statid="36" ></item>
+<item Cityid="655" City="Burdwan" Statid="36" ></item>
+<item Cityid="656" City="Cooch Behar" Statid="36" ></item>
+<item Cityid="657" City="Dakshin Dinajpur" Statid="36" ></item>
+<item Cityid="658" City="Darjeeling" Statid="36" ></item>
+<item Cityid="659" City="Hooghly" Statid="36" ></item>
+<item Cityid="660" City="Howrah" Statid="36" ></item>
+<item Cityid="661" City="Jalpaiguri" Statid="36" ></item>
+<item Cityid="662" City="Kolkata" Statid="36" ></item>
+<item Cityid="663" City="Malda" Statid="36" ></item>
+<item Cityid="664" City="Murshidabad" Statid="36" ></item>
+<item Cityid="665" City="Nadia" Statid="36" ></item>
+<item Cityid="666" City="North 24 Parganas" Statid="36" ></item>
+<item Cityid="667" City="Paschim Medinipur" Statid="36" ></item>
+<item Cityid="668" City="Purba Medinipur" Statid="36" ></item>
+<item Cityid="669" City="Purulia" Statid="36" ></item>
+<item Cityid="670" City="South 24 Parganas" Statid="36" ></item>
+<item Cityid="671" City="Uttar Dinajpur" Statid="36" ></item>
+
+</configuration>
